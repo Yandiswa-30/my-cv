@@ -9,14 +9,9 @@ export default function App() {
       <p>Start editing to see some magic happen :)</p>
       <Grid container spacing={1}>
   <Grid container item xs={12} spacing={3}>
-    <FormRow />
+  
   </Grid>
-  <Grid container item xs={12} spacing={3}>
-    <FormRow />
-  </Grid>
-  <Grid container item xs={12} spacing={3}>
-    <FormRow />
-  </Grid>
+
 </Grid>
     </div>
        
