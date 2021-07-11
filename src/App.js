@@ -1,18 +1,20 @@
 import React from "react";
-import "./style.css";
-import Grid from "@material-ui/core/Grid";
+import {makeStyles} from "@material-ui/core/styles";
+import {Grid,Paper} from "@material-ui/core";
 
 export default function App() {
   return (
+    
     <div>
-      <h1>Hello Sta!</h1>
-      <p>Start editing to see some magic happen :)</p>
-      <Grid container spacing={1}>
-  <Grid container item xs={12} spacing={3}>
-  
+       <Grid container spacing={1}>
+  <Grid border>
+        NAme     
   </Grid>
 
 </Grid>
+      <h1>Hello Sta!</h1>
+      <p>Start editing to see some magic happen :)</p>
+     
     </div>
        
   );
