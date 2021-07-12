@@ -15,10 +15,12 @@ const useStyles= makeStyles(theme=> ({
      color: theme.palette.text.secondary,
      background: theme.palette.success.dark,
      textAlign:'center',
-     height:'500%'
+    // height:'600%'
   },
   p2:{
-    height:'300%'
+    height:'800%',
+    color:"yellow"
+    
   }
 }));
 
@@ -27,14 +29,14 @@ export default function App() {
   const classes=useStyles();
   return (
   //This is the grid used to display my content and grid item are grids inside the grid
-<Grid container spacing={2} className={classes.Grid}>
-  <Grid item xs='6'>
+<Grid container spacing={2}>
+  <Grid item xs={12} sm={12} md={4} lg={3}>
      <Paper className={classes.Paper}>
        my name:
        </Paper>     
    </Grid>
-   <Grid item xs='6'>
-     <Paper className={classes.Paper} id='p2'>
+   <Grid item >
+     <Paper className={classes.Paper} id={classes.p2}>
        my name:
        </Paper>     
    </Grid>
