@@ -31,10 +31,10 @@ export default function App() {
   //This is the grid used to display my content and grid item are grids inside the grid
 <container>
 <Grid container spacing={2}>
-  <Grid item xs={12} sm={12} md={4} lg={3}>
+  <Grid item xs={12} sm={12} md={4} lg={3} style={{backgroundColor:'yellow'}}>
       My Profile   
    </Grid>
-   <Grid item >
+   <Grid item xs style={{backgroundColor:'blue'}}>
        My Information  
    </Grid>
 
