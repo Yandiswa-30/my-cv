@@ -2,20 +2,35 @@ import React from "react";
 import {makeStyles} from "@material-ui/core/styles";
 import {Grid,Paper} from "@material-ui/core";
 
-export default function App() {
-  return (
-    
-    <div>
-       <Grid container spacing={1}>
-  <Grid border>
-        NAme     
-  </Grid>
+//This is used for styling my work like css(imported as makeStyles)
+const useStyles= makeStyles(theme=> ({
+  
+  grid:{
+    width: '50%',
+    margin: '0px',
+    height: '100%'
+  },
+  Paper:{
+    padding: theme.spacing(2),
+     color: theme.palette.text.secondary,
+     background: theme.palette.success.dark,
+     textAlign:'center'
+  }
+}));
 
-</Grid>
-      <h1>Hello Sta!</h1>
-      <p>Start editing to see some magic happen :)</p>
-     
-    </div>
-       
+export default function App() {
+  //This classes is used as an object to access useStyles
+  const classes=useStyles();
+  return (
+  //This is the grid used to display my content and grid item are grids inside the grid
+<Grid container spacing={2} className={classes.Grid}>
+  <Grid item>
+     <Paper className={classes.Paper}>
+       my name:
+       </Paper>     
+   </Grid>
+
+  </Grid>
+           
   );
 }
