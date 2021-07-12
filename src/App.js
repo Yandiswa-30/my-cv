@@ -1,6 +1,6 @@
 import React from "react";
 import {makeStyles} from "@material-ui/core/styles";
-import {Grid,Paper} from "@material-ui/core";
+import {Grid,Container} from "@material-ui/core";
 
 //This is used for styling my work like css(imported as makeStyles)
 const useStyles= makeStyles(theme=> ({
@@ -29,19 +29,16 @@ export default function App() {
   const classes=useStyles();
   return (
   //This is the grid used to display my content and grid item are grids inside the grid
+<container>
 <Grid container spacing={2}>
   <Grid item xs={12} sm={12} md={4} lg={3}>
-     <Paper className={classes.Paper}>
-       my name:
-       </Paper>     
+      My Profile   
    </Grid>
    <Grid item >
-     <Paper className={classes.Paper} id={classes.p2}>
-       my name:
-       </Paper>     
+       My Information  
    </Grid>
 
   </Grid>
-           
+  </container>          
   );
 }
