@@ -1,8 +1,16 @@
 .Profile-constShadow {
-
-  background-color: blue;
+ border-radius: 6px;
+  background-color: white;
+  width: 100px;
+  display: inline-block;
 }
 
+.profile-name{
+  text-transform: uppercase;
+  line-height: 18px;
+  padding: 20px;
+
+}
 
 
 

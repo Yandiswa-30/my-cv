@@ -7,7 +7,7 @@ const Profile = () =>{
   return(
 
     <div className="Profile-constShadow">
-      <div className="profile-Name"> 
+      <div className="profile-name"> 
         <typography className="name">Yandiswa Ndarane </typography>
       </div>
          <figure className="profile-img">
