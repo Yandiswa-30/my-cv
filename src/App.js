@@ -16,6 +16,9 @@ const useStyles= makeStyles(theme=> ({
      background: theme.palette.success.dark,
      textAlign:'center',
      height:'500%'
+  },
+  p2:{
+    height:'300%'
   }
 }));
 
@@ -31,7 +34,7 @@ export default function App() {
        </Paper>     
    </Grid>
    <Grid item xs='6'>
-     <Paper className={classes.Paper}>
+     <Paper className={classes.Paper} id='p2'>
        my name:
        </Paper>     
    </Grid>
