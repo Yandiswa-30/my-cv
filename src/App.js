@@ -16,7 +16,6 @@ export default function App() {
           sm={12}
           md={4}
           lg={3}
-          style={{ backgroundColor: 'yellow' }}
         >
           <Profile/>
         </Grid>
