@@ -24,8 +24,8 @@ export default function App() {
   const classes=useStyles();
   return (
   //This is the grid used to display my content and grid item are grids inside the grid
-<Grid container spacing={2} className={classes.Grid} xs='12' md='6'>
-  <Grid item>
+<Grid container spacing={2} className={classes.Grid}>
+  <Grid item xs='6'>
      <Paper className={classes.Paper}>
        my name:
        </Paper>     
