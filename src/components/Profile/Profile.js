@@ -1,6 +1,5 @@
-import React from 'react'
-import typography from '@material-ui/core'
-import './Profile.css'
+import React from 'react';
+import {Typography} from '@material-ui/core';
 
 const Profile = () =>{
    

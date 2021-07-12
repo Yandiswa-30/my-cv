@@ -1,10 +1,12 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import { Grid, Container, Paper } from '@material-ui/core';
+import { Grid, Container } from '@material-ui/core';
 import Profile from './components/Profile/Profile';
 
+
+
 export default function App() {
- 
+  //This classes is used as an object to access useStyles
+  const classes = useStyles();
   return (
     //This is the grid used to display my content and grid item are grids inside the grid
     <container>
