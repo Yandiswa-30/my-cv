@@ -14,7 +14,8 @@ const useStyles= makeStyles(theme=> ({
     padding: theme.spacing(2),
      color: theme.palette.text.secondary,
      background: theme.palette.success.dark,
-     textAlign:'center'
+     textAlign:'center',
+     height:'500%'
   }
 }));
 
@@ -23,7 +24,7 @@ export default function App() {
   const classes=useStyles();
   return (
   //This is the grid used to display my content and grid item are grids inside the grid
-<Grid container spacing={2} className={classes.Grid}>
+<Grid container spacing={2} className={classes.Grid} xs='12' md='6'>
   <Grid item>
      <Paper className={classes.Paper}>
        my name:
