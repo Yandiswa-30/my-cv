@@ -30,6 +30,11 @@ export default function App() {
        my name:
        </Paper>     
    </Grid>
+   <Grid item xs='6'>
+     <Paper className={classes.Paper}>
+       my name:
+       </Paper>     
+   </Grid>
 
   </Grid>
            
