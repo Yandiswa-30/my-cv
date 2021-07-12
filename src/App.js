@@ -17,7 +17,7 @@ const useStyles= makeStyles(theme=> ({
      textAlign:'center',
     // height:'600%'
   },
-  p2:{
+  div:{
     height:'800%',
     color:"yellow"
     
@@ -30,11 +30,13 @@ export default function App() {
   return (
   //This is the grid used to display my content and grid item are grids inside the grid
 <container>
-<Grid container>
+<Grid container spacing={2}>
   <Grid item xs={12} sm={12} md={4} lg={3} style={{backgroundColor:'yellow'}}>
-      My Profile   
+      <div>
+        me
+      </div>
    </Grid>
-   <Grid item xs style={{backgroundColor:'blue'}}>
+   <Grid item style={{backgroundColor:'blue'}}>
        My Information  
    </Grid>
 
