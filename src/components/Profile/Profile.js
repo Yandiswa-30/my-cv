@@ -1,5 +1,6 @@
 import React from 'react'
-import typography from '@material-ui/core';
+import typography from '@material-ui/core'
+import './Profile.css'
 
 const Profile = () =>{
    
@@ -12,6 +13,12 @@ const Profile = () =>{
          <figure className="profile-img">
            <img src="" alt="" />
          </figure>
+
+         <div className="profile-Information">
+               timeline
+               <br/>
+               <button>Download CV</button>
+         </div>
     </div>
   )
     
