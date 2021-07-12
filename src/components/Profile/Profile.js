@@ -16,8 +16,7 @@ const Profile = () =>{
 
          <div className="profile-Information">
                timeline
-               <br/>
-               <button>Download CV</button>
+             
          </div>
     </div>
   )

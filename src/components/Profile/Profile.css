@@ -1,6 +1,5 @@
-.profile-img{
-
- margin-top: -10px;
- clip-path:circle(50%);
-
+.profile-img img{
+ width: 100px;
+ border-radius: 50%;
+ margin-left: -20px;
 }
